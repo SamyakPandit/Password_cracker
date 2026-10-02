@@ -1,6 +1,6 @@
 import hashlib
 
-password = "hello123"
+password = "man"
 
 hashed = hashlib.sha256(password.encode()).hexdigest()
 
